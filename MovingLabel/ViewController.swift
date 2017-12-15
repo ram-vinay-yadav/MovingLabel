@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         let movingLabel = MovingUILabel(frame: CGRect(x:100, y:300, width:120, height:30))
-        movingLabel.text  = "marquee effect on UILabel by removing letters in front and adding in end in swift 4"
+        movingLabel.text  = "Marquee effect on UILabel by removing letters in front and adding in end in swift"
         movingLabel.repetedText = movingLabel.text
         movingLabel.textAlignment = .left
         movingLabel.textColor = UIColor.red
